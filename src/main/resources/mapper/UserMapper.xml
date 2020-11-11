@@ -57,7 +57,6 @@
             <if test="sex !=null">
                 sex = #{sex, jdbcType = TINYINT},
             </if>
-            gmt_modify = now()
         </set>
         where id = #{id,jdbcType=BIGINT} and is_deleted = 0
     </update>
