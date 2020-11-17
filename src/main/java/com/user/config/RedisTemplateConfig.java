@@ -10,6 +10,9 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
+
+// 比较好的操作redis播客地址： https://www.cnblogs.com/caizhaokai/p/11037610.html
+
 @Configuration
 public class RedisTemplateConfig {
 
