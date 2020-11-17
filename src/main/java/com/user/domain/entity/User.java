@@ -13,5 +13,6 @@ public class User {
 
 	private String school;
 
+	//版本1
 	private Integer sex;
 }
